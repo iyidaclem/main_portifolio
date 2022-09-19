@@ -7,6 +7,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background-image:url(../img/blurry-background.png) ;
 }
 
 a {
@@ -74,7 +75,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: rgb(153, 100, 2);
   overflow-y: auto;
 }
 
@@ -359,6 +360,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about{
+  background-image: url(../img/blurry-background-ach.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -396,6 +402,8 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+  background-image: url(../img/blurry-background.svg);
+  background-position: center;
 }
 
 .facts .count-box {
@@ -859,7 +867,9 @@ section {
 .contact {
   padding-bottom: 130px;
 }
-
+.mg{
+  display: flex;
+}
 .contact .info {
   padding: 30px;
   background: #fff;
@@ -873,7 +883,9 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background-image: url(../img/image_calling.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
