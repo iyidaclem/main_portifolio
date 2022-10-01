@@ -18,7 +18,10 @@ a {
 a:hover {
   color: #37b3ed;
   text-decoration: none;
+  transform: rotate(360deg);
+  transition: ease-in all 0.7s;
 }
+
 
 h1,
 h2,
@@ -746,6 +749,9 @@ section {
 
 .services .icon-box:hover .icon i {
   color: #149ddd;
+    transform: rotate(360deg);
+    transition: ease-in all 0.7s;
+  
 }
 
 .services .title {
@@ -892,6 +898,11 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
+.info i:hover{
+  
+  transform: rotate(360deg);
+  transition: ease-in all 0.7s;
+}
 
 .contact .info h4 {
   padding: 0 0 0 60px;
@@ -934,6 +945,8 @@ section {
 .contact .info .social-links a:hover {
   background: #149ddd;
   color: #fff;
+  transform: rotate(360deg);
+  transition: ease-in all 0.7s;
 }
 
 .contact .info .email:hover i,
